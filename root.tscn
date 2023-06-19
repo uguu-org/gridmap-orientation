@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvko0rrl6k7aq"]
+
+[ext_resource type="PackedScene" uid="uid://cbjlpf8guayv2" path="res://main.tscn" id="1_hiumx"]
+[ext_resource type="PackedScene" uid="uid://3abpo5h28go1" path="res://axes.tscn" id="2_5dofy"]
+
+[node name="Root" type="Node"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+
+[node name="MainContainer" type="SubViewportContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="MainView" type="SubViewport" parent="Control/MainContainer"]
+handle_input_locally = false
+msaa_3d = 1
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="Main" parent="Control/MainContainer/MainView" instance=ExtResource("1_hiumx")]
+
+[node name="AxesContainer" type="SubViewportContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -128.0
+offset_bottom = 128.0
+grow_horizontal = 0
+
+[node name="AxesView" type="SubViewport" parent="Control/AxesContainer"]
+transparent_bg = true
+handle_input_locally = false
+msaa_3d = 1
+size = Vector2i(128, 128)
+render_target_update_mode = 4
+
+[node name="Axes" parent="Control/AxesContainer/AxesView" instance=ExtResource("2_5dofy")]

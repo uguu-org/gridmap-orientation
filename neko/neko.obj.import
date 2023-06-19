@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsc128m1fglvp"
+path="res://.godot/imported/neko.obj-58c5736ef87dd4dfdcee3261e007f14c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/neko.obj-58c5736ef87dd4dfdcee3261e007f14c.mesh"]
+
+source_file="res://neko/neko.obj"
+dest_files=["res://.godot/imported/neko.obj-58c5736ef87dd4dfdcee3261e007f14c.mesh", "res://.godot/imported/neko.obj-58c5736ef87dd4dfdcee3261e007f14c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(0.8, 0.8, 0.8)
+offset_mesh=Vector3(0, -1, 0)
+optimize_mesh=true

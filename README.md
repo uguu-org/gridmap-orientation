@@ -23,6 +23,6 @@ Honestly the screenshot above is all I needed, but I made it interactive just fo
 
 ## License
 
-This project runs on Godot 4, which is released under [MIT license](godotengine.org/license)
+This project runs on Godot 4, which is released under [MIT license](https://godotengine.org/license)
 
 This project is also released under MIT license.

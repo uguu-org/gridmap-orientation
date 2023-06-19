@@ -34,7 +34,7 @@ item/1/navigation_layers = 1
 script = ExtResource("1_f8d48")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+transform = Transform3D(-0.866024, -0.433016, 0.25, 0.493441, -0.659414, 0.567176, -0.0807427, 0.614548, 0.784736, 0, 0, 0)
 shadow_enabled = true
 
 [node name="Camera3D" type="Camera3D" parent="."]

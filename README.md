@@ -2,9 +2,9 @@
 
 https://uguu-org.itch.io/gridmap-orientation
 
-![Orientations](orientations.png)
+![Orientations](doc/neko_orientations.png)
 
-![Orientations](orientations2.png)
+![Orientations](doc/cube_orientations.png)
 
 This project shows the 24 orientations for use with [set_cell_item](https://docs.godotengine.org/en/stable/classes/class_gridmap.html#class-gridmap-method-set-cell-item).
 

@@ -53,7 +53,7 @@ func _input(event) -> void:
 
 
 # Handle keyboard and mouse wheel input.
-func _process(delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("change_display_mode"):
 		_show_labels = not _show_labels
 		if _show_labels:
